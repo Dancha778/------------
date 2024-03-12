@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Students</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="user-info">
+                <p>Welcome, User!</p> <!— Имя пользователя из базы данных —>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a class="active" href="students.html">Students</a></li> <!— Активная страница —>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
+                    <li><a href="#">Logout</a></li> <!— В зависимости от состояния пользователя —>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1>Students</h1><!— Список учеников из базы данных —>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
