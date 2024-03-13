@@ -7,17 +7,29 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="login-form">
-            <h2>Login</h2>
-            <form action="login.php" method="post">
-                <input type="text" name="Login" placeholder="Login" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <button type="submit">Login</button>
-            </form>
-            <a href="register.html">Don't have an account? Register here.</a>
-        </div>
-        <main>
-            <h1>Login</h1>
+        <header>
+            <nav class="href_pages">
+                <ul>
+                    <menu><a href="profile.html">Profile</a></menu>
+                    <menu><a href="students.html">Students</a></menu>
+                    <menu><a class="active" href="calendar.html">Calendar</a></menu> <!— Активная страница —>
+                    <menu><a href="achievements.html">Achievements</a></menu>
+                    <menu><a href="login.html">Login</a></menu> <!— В зависимости от состояния пользователя —>
+                    <menu><a href="#">Logout</a></menu> 
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main_center">
+            <div class="login-form">
+                <h2>Login</h2>
+                <form action="login.php" method="post">
+                <li><input type="text" name="Login" placeholder="Login" required></li>
+                <li><input type="password" name="password" placeholder="Password" required></li>
+                <o><button type="submit">Login</button></o>
+                </form>
+                <a href="register.html">Don't have an account? Register here.</a>
+            </div>
         </main>
         <script src="script.js"></script>
     </body>

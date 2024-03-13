@@ -19,6 +19,47 @@
   margin: 0;
 }
 
+.href_pages{
+  display: flex;
+  justify-content: right;
+}
+
+menu{
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+  border: 1px dotted red;
+}
+
+li{
+  margin: 5px;
+  
+}
+
+input{
+  padding: 5px;
+}
+
+o{
+  display: flex;
+  justify-content: center;
+}
+
+.Date_bth{
+  padding-left: 34px;
+  padding-right: 34px;
+}
+
+body{
+  margin: 25px;
+}
+
+.main_center{
+  display: flex;
+  justify-content: center;
+}
+
+
 .calendar {
   font-family: "IBM Plex Sans", sans-serif;
   position: relative;

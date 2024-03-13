@@ -8,32 +8,34 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="href_pages">
                 <ul>
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="students.html">Students</a></li>
-                    <li><a class="active" href="calendar.html">Calendar</a></li> <!— Активная страница —>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li><a href="login.html">Login</a></li> <!— В зависимости от состояния пользователя —>
-                    <li><a href="#">Logout</a></li> 
+                    <menu><a href="profile.html">Profile</a></menu>
+                    <menu><a href="students.html">Students</a></menu>
+                    <menu><a class="active" href="calendar.html">Calendar</a></menu> <!— Активная страница —>
+                    <menu><a href="achievements.html">Achievements</a></menu>
+                    <menu><a href="login.html">Login</a></menu> <!— В зависимости от состояния пользователя —>
+                    <menu><a href="#">Logout</a></menu> 
                 </ul>
             </nav>
         </header>
-        <div class="register-form">
-            <h2>Registration</h2>
-            <form action="register.php" method="post">
+        <main class="main_center">
+            <div class="register-form">
+                <h2>Registration</h2>
+                <form action="register.php" method="post">
 
-                <input type="text" name="first_name" placeholder="First name" required>
-                <input type="text" name="second_name" placeholder="Second name" required>
-                <input type="text" name="patronymic_name" placeholder="Patronymic name" required>
-                <input type="date" name="date_bth" placeholder="Date of Birth" required>
-                <input type="password" name="password" placeholder="Password" required>
-                <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+                    <li><input type="text" name="first_name" placeholder="First name" required></li>
+                    <li><input type="text" name="second_name" placeholder="Second name" required></li>
+                    <li><input type="text" name="patronymic_name" placeholder="Patronymic name" required></li>
+                    <li><input class="Date_bth" type="date" name="date_bth" placeholder="Date of Birth" required></li>
+                    <li><input type="password" name="password" placeholder="Password" required></li>
+                    <li><input type="password" name="confirm_password" placeholder="Confirm Password" required></li>
 
-                <button type="submit">Create</button>
-            </form>
-            <a href="login.html">Already have an account? Log-in here.</a>
-        </div>
+                    <o><button type="submit">Create</button></o>
+                </form>
+                <a href="login.html">Already have an account? Log-in here.</a>
+            </div>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
