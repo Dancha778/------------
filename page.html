@@ -12,8 +12,7 @@
                 <ul>
                     <menu><a href="profile.html">Profile</a></menu>
                     <menu><a href="students.html">Students</a></menu>
-                    <menu><a class="active" href="calendar.html">Calendar</a></menu> <!— Активная страница —>
-                    <menu><a href="achievements.html">Achievements</a></menu>
+                    <menu><a class="active" href="calendar.html">Calendar</a></menu> 
                     <menu><a href="login.html">Login</a></menu> <!— В зависимости от состояния пользователя —>
                     <menu><a href="#">Logout</a></menu> 
                 </ul>
@@ -21,9 +20,14 @@
         </header>
         
 
-        <main >
-            <h1>Page</h1>
+        <main class="main_center">
+            <h2>Ученики сегодня</h2>
         </main>
+        <table>
+            <tr> <th>Имя</th> <th>Возраст</th> <th>класс</th> <th>Математика</th> <th>Физика</th> <th>время</th> </tr>
+            <tr> <td>Денис</td> <td>15</td> <td>8л</td> <td><a href="math.html">+</a></td> <td><a href="physics.html">-</a></td> <td><time datetime="14:00">20:00</time></td> </tr>
+            <tr> <td>Вася</td> <td>13</td> <td>6в</td> <td><a href="math.html">+</a></td> <td><a href="physics.html">+</a></td> <td><time datetime="18:00">18:00</time></td> </tr>
+           </table>
         <script src="script.js"></script>
     </body>
 </html>

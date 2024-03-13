@@ -76,11 +76,34 @@ o{
   padding-right: 34px;
 }
 
-
+a{
+  text-decoration: none;
+}
 
 .main_center{
   display: flex;
   justify-content: center;
+}
+
+table{
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  margin: 20px;
+  padding: 10px;
+  
+  
+}
+th{
+  margin: 20px;
+  padding: 10px;
+  border: solid 1px black;
+}
+
+td{
+  
+  padding: 20px;
+  border: solid 1px black;
 }
 
 

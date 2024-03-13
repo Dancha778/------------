@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Math</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div class="user-info">
+                <p>Welcome, User!</p> <!— Имя пользователя из базы данных —>
+            </div>
+            <nav class="href_pages">
+                <ul>
+                    <menu><a href="profile.html">Profile</a></menu>
+                    <menu><a href="students.html">Students</a></menu>
+                    <menu><a class="active" href="calendar.html">Calendar</a></menu> 
+
+                    <menu><a href="login.html">Login</a></menu> <!— В зависимости от состояния пользователя —>
+                    <menu><a href="#">Logout</a></menu> 
+                </ul>
+            </nav>
+        </header>
+        <main class="main_center">
+            <h1>Математика</h1> 
+        </main>
+       <table>
+        <tr> <th>Имя</th> <th>Тема</th> <th>Оценка занятия</th> <th>Оценка дз</th>  <th>Комментарий</th> </tr>
+        <tr> <td>Денис</td> <td>Треугольники</td> <td>5</td> <td>3</td>  <td>чОрт</td> </tr>
+       </table>
+        <script src="script.js"></script>
+    </body>
+</html>
