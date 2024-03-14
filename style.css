@@ -23,8 +23,8 @@
 body{
   margin: 0;
   background: linear-gradient(to bottom right,red,rgb(190, 190, 28),purple);
-  width: 1850px;
-  height: 901px;
+  height: 100vh;
+  
   }
   
 
@@ -50,6 +50,7 @@ menu{
   justify-content: center;
   margin: 10px;
   padding: 3px;
+  margin-right: 50px;
   border: 1px dotted red;
 }
 
